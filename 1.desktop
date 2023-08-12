@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Application;
+Comment[en_US]=enable ssh server for sftp file transfer
+Exec=konsole -e 'sudo systemctl enable --now sshd'
+Icon=unlock
+Name[en_US]=enable ssh
+StartupNotify=true
+Terminal=true
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
