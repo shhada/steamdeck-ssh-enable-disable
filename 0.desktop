@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Application;
 Comment[en_US]=disable ssh server for sftp transfer
-Exec=konsole -e 'sudo systemctl disable --now sshd'
+Exec=konsole -e 'sudo systemctl stop --now sshd'
 Icon=lock
 Name[en_US]=disable ssh
 StartupNotify=true
